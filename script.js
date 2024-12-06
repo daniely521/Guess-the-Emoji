@@ -70,10 +70,14 @@ function returnToHome() {
 }
 
 function skipQuestion(){
-    currentPuzzleIndex = (currentPuzzleIndex+1) % emojiQuestions[currentMode].length;
-    loadPuzzle();
-    feedback.textContent = "";
-    guessInput.value = "";
+    const correctAnswer = emojiQuestions[currentMode][currentPuzzleIndex].answer;
+
+    feedback.textContent = `The correct answer was: ${correctAnswer}`;
+    feedback.style.color = "#5a72bf";
+    setTimeout(() => {
+        currentPuzzleIndex = (currentPuzzleIndex + 1) % emojiQuestions[currentMode].length;
+        loadPuzzle();
+    }, 2000);
 }
 
 modeButtons.forEach(button =>{

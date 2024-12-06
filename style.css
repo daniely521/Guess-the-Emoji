@@ -11,9 +11,16 @@ body {
     padding: 20px;
 }
 
+h1 {
+    color: #7361fa;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
 p {
     font-size: 17px;
     margin-top: -2px;
+    color: #273430;
 }
 
 .mode-button {
@@ -24,6 +31,7 @@ p {
     border-radius: 5px;
     cursor: pointer;
     margin: 2%;
+    color:#5841a5 ;
 }
 
 #container {
@@ -55,11 +63,13 @@ p {
     border-radius: 10px;
     background-color: #bbcfff;
     cursor: pointer;
+    color: #2a16a9;
 }
 
 #feedback {
     margin-top: 15px;
-    font-size: 17px;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 #home-button {
@@ -74,6 +84,7 @@ p {
     height: 40px;
     cursor: pointer;
     left: 10px;
+    color: #5841a5;
 }
 
 #skip-button{
@@ -87,4 +98,48 @@ p {
     width: 65px;
     height: 40px;
     cursor: pointer;
+    color: darkred;
+}
+
+#inline {
+    display: inline-block;
+}
+
+.contact-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #bbcfff;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #007bff;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.mode-button:hover {
+    background-color: #b1c7fc;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#submit-button:hover {
+    background-color: #b1c7fc;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#home-button:hover {
+    background-color: #eafba6;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#skip-button:hover {
+    background-color: #ffbfaf;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 }
