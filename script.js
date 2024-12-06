@@ -42,7 +42,7 @@ function checkAnswer() {
 
     if (userGuess === correctAnswer) {
         feedback.textContent = "Correct! 🎉";
-        feedback.style.color = "green";
+        feedback.style.color = "#30bf30";
 
         setTimeout(() => {
             currentPuzzleIndex = (currentPuzzleIndex + 1) % emojiQuestions[currentMode].length;
@@ -50,7 +50,7 @@ function checkAnswer() {
         }, 2000);
     } else {
         feedback.textContent = "Try Again! ❌";
-        feedback.style.color = "red";
+        feedback.style.color = "#b03838";
     }
 }
 

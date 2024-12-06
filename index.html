@@ -4,28 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess the Emoji</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- mode selection screen -->
-    <div id="mode-selection" class="screen">
-        <h1>Guess the Emoji</h1>
-        <p>This is a game where you guess the movie, song or TV show based on the emojis shown!</p>
-        <p>Select a mode to begin</p>
-        <button class="mode-button" data-mode="movies">Movies</button>
-        <button class="mode-button" data-mode="songs">Songs</button>
-        <button class="mode-button" data-mode="tv-shows"> TV Shows</button>
+    <div id="container">
+        <!-- mode selection screen -->
+        <div id="mode-selection" class="screen">
+            <h1>Guess the Emoji</h1>
+            <p>This is a game where you guess the movie, song or TV show based on the emojis shown!</p>
+            <p>Select a mode to begin!</p>
+            <button class="mode-button" data-mode="movies">Movies</button>
+            <button class="mode-button" data-mode="songs">Songs</button>
+            <button class="mode-button" data-mode="tv-shows"> TV Shows</button>
+        </div>
+        <!-- game screen -->
+        <div id="game-screen" class="screen hidden">
+            <h1>Guess the Emoji!</h1>
+            <div id="emoji-display">😀</div>
+            <input type="text" id="guess-input" placeholder="Enter your guess...">
+            <button id="submit-button">Submit</button>
+            <p id="feedback"></p>
+            <button id="home-button" class="home-button">Home</button>
+            <button id="skip-button" class="skip-button">Skip</button>
+        </div>
+        <script src="script.js"></script>
     </div>
-    <!-- game screen -->
-    <div id="game-screen" class="screen hidden">
-        <h1>Guess the Emoji!</h1>
-        <div id="emoji-display">😀</div>
-        <input type="text" id="guess-input" placeholder="Enter your guess...">
-        <button id="submit-button">Submit</button>
-        <p id="feedback"></p>
-        <button id="home-button" class="home-button">Home</button>
-        <button id="skip-button" class="skip-button">Skip</button>
-    </div>
-    <script src="script.js"></script>
 </body>
 </html>
