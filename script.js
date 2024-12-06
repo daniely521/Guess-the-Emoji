@@ -1,18 +1,41 @@
 const emojiQuestions = {
     movies: [
-        { emoji: "🎬🍿", answer: "movie night" },
-        { emoji: "🦖🌋", answer: "jurassic park" },
-        { emoji: "🧙‍♂️🪄", answer: "harry potter" }
+        { emoji: "🕷️🙎‍♂️", answer: "spiderman" },
+        { emoji: "🦖🎡", answer: "jurassic park" },
+        { emoji: "🧙‍♂️🪄", answer: "harry potter" },
+        { emoji: "🧸📖", answer: "toy story" },
+        { emoji: "🐀👨‍🍳", answer: "ratatouille" },
+        { emoji: "🪔🧞‍♂️", answer: "aladdin" },
+        { emoji: "🧊🚢", answer: "titanic" },
+        { emoji: "🚗➡️🤖", answer: "transformers" },
+        { emoji: "🦁👑", answer: "the lion king" },
+        { emoji: "❌👨👨", answer: "x-men" },
+        { emoji: "🙋‍♂️⚫️", answer: "men in black" },
+        { emoji: "🟢📗", answer: "green book" },
+        { emoji: "🌚♞", answer: "the dark knight" },
+        { emoji: "🔝🔫", answer: "top gun" }
     ],
     songs: [
-        { emoji: "🎸🎤", answer: "rock star" },
-        { emoji: "💃🎶", answer: "dance music" },
-        { emoji: "🛶🎵", answer: "row your boat" }
+        { emoji: "🎄🎁🫵", answer: "all i want for christmas is you" },
+        { emoji: "🧑‍🦯💡", answer: "blinding lights" },
+        { emoji: "🪩🥳🇺🇸", answer: "party in the u.s.a" },
+        { emoji: "🚘🪪", answer: "drivers license" },
+        { emoji: "👋👋👋", answer: "bye bye bye" },
+        { emoji: "🧪☠️", answer: "toxic" },
+        { emoji: "☂️🌂", answer: "umbrella" },
+        { emoji: "👎👩‍❤️‍👨", answer: "bad romance" },
+        { emoji: "9️⃣🗓️", answer: "september" },
+        { emoji: "📞🤷‍♀️🤔", answer: "call me maybe" },
+        { emoji: "💃👸", answer: "dancing queen" }
     ],
     tvshows: [
+        { emoji: "🎮👑🪑", answer: "game of thrones" },
+        { emoji: "🏢📑🧑‍💼", answer: "the office" },
+        { emoji: "⬇️🏞️", answer: "south park" },
+        { emoji: "🩺🏠", answer: "house" },
         { emoji: "👽🚀", answer: "stranger things" },
-        { emoji: "🏰🐉", answer: "game of thrones" },
-        { emoji: "🏥💉", answer: "grey's anatomy" }
+        { emoji: "🏡🙎‍♂️", answer: "family guy" },
+        { emoji: "👸♟️", answer: "the queen's gambit" }
     ]
 }
 
